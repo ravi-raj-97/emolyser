@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chrav.emolyser.QuesEight">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="346dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="16dp"
+        android:text="Question Eight \nIn your opinion, which side does the beam appear to be tilted?"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Back"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="31dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Next"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="337dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:weightSum="1"
+        app:layout_constraintHorizontal_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radioButton28"
+            android:layout_width="103dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:text="Towards the brain"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="203dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton29"
+            android:layout_width="94dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="10dp"
+            android:text="Towards the heart"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Both are equally tilted"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.104"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="326dp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="352dp"
+        android:layout_height="293dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@drawable/pic3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="149dp" />
+
+
+</android.support.constraint.ConstraintLayout>
