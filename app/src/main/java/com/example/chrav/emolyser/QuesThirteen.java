@@ -7,28 +7,28 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class QuesTwelve extends AppCompatActivity {
+public class QuesThirteen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ques_twelve);
+        setContentView(R.layout.activity_ques_thirteen);
 
-        TextView tv1 = (TextView)findViewById(R.id.textView14);
-        Button bt1 = (Button)findViewById(R.id.button26);
-        Button bt2 = (Button)findViewById(R.id.button27);
-        Button bt3 = (Button)findViewById(R.id.button28);
+        TextView tv1 = (TextView)findViewById(R.id.textView15);
+        Button bt1 = (Button)findViewById(R.id.button29);
+        Button bt2 = (Button)findViewById(R.id.button30);
+        Button bt3 = (Button)findViewById(R.id.button31);
         bt1.setOnClickListener(new View.OnClickListener() {
                                    @Override
                                    public void onClick(View v) {
-                                       Intent it1 = new Intent(QuesTwelve.this, QuesEleven.class);
+                                       Intent it1 = new Intent(QuesThirteen.this, QuesTwelve.class);
                                        startActivity(it1);
                                    }
                                }
                 bt2.setOnClickListener(new View.OnClickListener() {
                                            @Override
                                            public void onClick(View v) {
-                                               Intent it2 = new Intent(QuesEleven.this, QuesThirteen.class);
+                                               Intent it2 = new Intent(QuesThirteen.this, QuesFourteen.class);
                                                startActivity(it2);
                                            }
                                        }

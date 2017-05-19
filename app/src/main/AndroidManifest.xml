@@ -28,7 +28,11 @@
         <activity android:name=".QuesTen" />
         <activity android:name=".PicPage" />
         <activity android:name=".QuesEleven" />
-        <activity android:name=".QuesTwelve"></activity>
+        <activity android:name=".QuesTwelve" />
+        <activity android:name=".QuesThirteen" />
+        <activity android:name=".QuesFourteen" />
+        <activity android:name=".QuesFifteen" />
+        <activity android:name=".Finish"></activity>
     </application>
 
 </manifest>

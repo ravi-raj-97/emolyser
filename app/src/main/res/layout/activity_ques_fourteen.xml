@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.chrav.emolyser.QuesTwelve">
+    tools:context="com.example.chrav.emolyser.QuesFourteen">
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView16"
         android:layout_width="347dp"
         android:layout_height="94dp"
         android:layout_marginLeft="19dp"
-        android:text="You pass the door of the castle and realize that there is no one is inside. What is the first thing you see?"
+        android:text="After you climb the stairs, you reach a small room in which there is only one window. How big is it?"
         android:textStyle="bold"
         android:textColor="#000000"
         android:textSize="20dp"
@@ -21,7 +21,7 @@
         android:layout_marginTop="46dp" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/button32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -31,7 +31,7 @@
         tools:layout_editor_absoluteX="31dp" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/button33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -39,6 +39,17 @@
         android:text="Next"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View picture again"
+        android:textColor="#000fff"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="391dp"
+        android:layout_marginRight="16dp"
         app:layout_constraintRight_toRightOf="parent" />
 
     <RadioGroup
@@ -50,15 +61,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545">
+        app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton42"
+            android:id="@+id/radioButton48"
             android:layout_width="352dp"
             android:layout_height="52dp"
             android:layout_marginLeft="20dp"
-            android:text="A huge library, wall to wall full of books"
+            android:text="It is a normal window"
             android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintHorizontal_bias="0.119"
@@ -67,58 +77,33 @@
             tools:layout_editor_absoluteY="203dp" />
 
         <RadioButton
-            android:id="@+id/radioButton43"
+            android:id="@+id/radioButton49"
             android:layout_width="352dp"
             android:layout_height="53dp"
             android:layout_marginLeft="20dp"
-            android:text="A huge fireplace and a hot fire burning"
+            android:text="It’s too small, almost skylight"
             android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintHorizontal_bias="0.098"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             tools:layout_editor_absoluteY="266dp" />
+
 
         <RadioButton
-            android:id="@+id/radioButton44"
+            android:id="@+id/radioButton50"
             android:layout_width="352dp"
-            android:layout_height="60dp"
+            android:layout_height="53dp"
             android:layout_marginLeft="20dp"
-            android:text="A large banquet hall with huge chandeliers and red carpets"
+            android:text="The window is huge, so that it takes almost the entire surface of the wall"
             android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintHorizontal_bias="0.098"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             tools:layout_editor_absoluteY="266dp" />
-
-        <RadioButton
-            android:id="@+id/radioButton45"
-            android:layout_width="352dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="20dp"
-            android:text="A long corridor with many closed doors"
-            android:textColor="#000000"
-            android:textStyle="bold"
-            app:layout_constraintHorizontal_bias="0.098"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            tools:layout_editor_absoluteY="266dp" />
-
 
     </RadioGroup>
-
-    <Button
-        android:id="@+id/button28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View picture again"
-        android:textColor="#000fff"
-        android:background="#ffffff"
-        tools:layout_editor_absoluteY="391dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent" />
-
 
 
 </android.support.constraint.ConstraintLayout>
