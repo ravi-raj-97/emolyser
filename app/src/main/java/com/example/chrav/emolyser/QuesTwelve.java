@@ -15,28 +15,21 @@ public class QuesTwelve extends AppCompatActivity {
         setContentView(R.layout.activity_ques_twelve);
 
         TextView tv1 = (TextView)findViewById(R.id.textView14);
-        Button bt1 = (Button)findViewById(R.id.button26);
-        Button bt2 = (Button)findViewById(R.id.button27);
-        Button bt3 = (Button)findViewById(R.id.button28);
+        Button bt1 = (Button)findViewById(R.id.button25);
+        Button bt2 = (Button)findViewById(R.id.button26);
         bt1.setOnClickListener(new View.OnClickListener() {
                                    @Override
                                    public void onClick(View v) {
                                        Intent it1 = new Intent(QuesTwelve.this, QuesEleven.class);
                                        startActivity(it1);
                                    }
-                               }
+                               });
                 bt2.setOnClickListener(new View.OnClickListener() {
                                            @Override
                                            public void onClick(View v) {
-                                               Intent it2 = new Intent(QuesEleven.this, QuesThirteen.class);
+                                               Intent it2 = new Intent(QuesTwelve.this, QuesThirteen.class);
                                                startActivity(it2);
                                            }
-                                       }
-
-                        bt3.setOnContextClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-
-                            };
+                                       });
     }
 }

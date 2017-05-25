@@ -23,13 +23,13 @@ public class QuesNIne extends AppCompatActivity {
                                        Intent it1 = new Intent(QuesNIne.this, QuesEight.class);
                                        startActivity(it1);
                                    }
-                               }
+                               });
                 bt2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent it2 = new Intent(QuesNIne.this, QuesTen.class);
                         startActivity(it2);
                     }
-                }
+                });
     }
 }

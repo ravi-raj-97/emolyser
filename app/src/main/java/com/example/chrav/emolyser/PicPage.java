@@ -23,13 +23,13 @@ public class PicPage extends AppCompatActivity {
                                        Intent it1 = new Intent(PicPage.this, QuesTen.class);
                                        startActivity(it1);
                                    }
-                               }
+                               });
                 bt2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent it2 = new Intent(PicPage.this, QuesEleven.class);
                         startActivity(it2);
                     }
-                }
+                });
     }
 }

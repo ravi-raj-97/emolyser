@@ -18,18 +18,18 @@ public class QuesOne extends AppCompatActivity {
         Button bt1 = (Button)findViewById(R.id.button1);
         Button bt2 = (Button)findViewById(R.id.button2);
         bt1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it1 = new Intent(QuesOne.this, MainActivity.class);
-                startActivity(it1);
-            }
-        }
-        bt2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it2 = new Intent(QuesOne.this, QuesTwo.class);
-                startActivity(it2);
-            }
-        }
+                                   @Override
+                                   public void onClick(View v) {
+                                       Intent it1 = new Intent(QuesOne.this, MainActivity.class);
+                                       startActivity(it1);
+                                   }
+                               });
+                bt2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent it2 = new Intent(QuesOne.this, QuesTwo.class);
+                        startActivity(it2);
+                    }
+                });
     }
 }

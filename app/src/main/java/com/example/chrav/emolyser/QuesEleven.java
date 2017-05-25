@@ -17,26 +17,19 @@ public class QuesEleven extends AppCompatActivity {
         TextView tv1 = (TextView)findViewById(R.id.textView13);
         Button bt1 = (Button)findViewById(R.id.button23);
         Button bt2 = (Button)findViewById(R.id.button24);
-        Button bt3 = (Button)findViewById(R.id.button25);
         bt1.setOnClickListener(new View.OnClickListener() {
                                    @Override
                                    public void onClick(View v) {
                                        Intent it1 = new Intent(QuesEleven.this, PicPage.class);
                                        startActivity(it1);
                                    }
-                               }
+                               });
                 bt2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent it2 = new Intent(QuesEleven.this, QuesSix.class);
+                        Intent it2 = new Intent(QuesEleven.this, QuesTwelve.class);
                         startActivity(it2);
                     }
-                }
-
-                bt3.setOnContextClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-
-                    };
+                });
     }
 }

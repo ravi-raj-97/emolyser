@@ -95,16 +95,4 @@
 
     </RadioGroup>
 
-    <Button
-        android:id="@+id/button25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View picture again"
-        android:textColor="#000fff"
-        android:background="#ffffff"
-        tools:layout_editor_absoluteY="391dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent" />
-
-
 </android.support.constraint.ConstraintLayout>

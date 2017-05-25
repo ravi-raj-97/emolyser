@@ -6,20 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.chrav.emolyser.MainActivity"
     tools:layout_editor_absoluteY="0dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@drawable/mainpic"
+    android:alpha="0.8">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="500dp"
-        android:layout_height="700dp"
-        android:alpha="0.8"
-        app:srcCompat="@drawable/mainpic"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="0dp"
-        app:layout_constraintVertical_bias="0.502" />
 
     <TextView
         android:id="@+id/textView"
@@ -29,10 +19,11 @@
         android:text="EMOLYSER"
         android:textSize="50dp"
         android:textStyle="bold|italic"
-        android:textColor="#ffffff"
+        android:textColor="#FFFFFF"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/button"
@@ -46,7 +37,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/textView1"

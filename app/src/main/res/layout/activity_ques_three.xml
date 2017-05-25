@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="353dp"
-        android:layout_height="143dp"
-        android:layout_marginLeft="15dp"
+        android:layout_width="377dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
         android:text="Question Three \nYou often think of the root cause of phenomena and things. "
         android:textStyle="bold"
         android:textColor="#000000"
@@ -25,6 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="18dp"
         android:orientation="vertical"
+        app:layout_constraintLeft_toRightOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:layout_editor_absoluteY="231dp">
         <RadioButton
             android:id="@+id/radioButton9"
@@ -83,9 +85,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:layout_marginLeft="15dp"
         android:text="Back"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
         tools:layout_editor_absoluteX="31dp" />
 
     <Button
