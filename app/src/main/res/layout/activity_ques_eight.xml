@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="346dp"
-        android:layout_height="96dp"
+        android:layout_width="359dp"
+        android:layout_height="142dp"
         android:layout_marginLeft="16dp"
         android:text="Question Eight \nIn your opinion, which side does the beam appear to be tilted?"
         android:textStyle="bold"
@@ -27,7 +27,9 @@
         android:layout_marginBottom="16dp"
         android:text="Back"
         android:textColor="#000000"
+        android:layout_marginLeft="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
         tools:layout_editor_absoluteX="31dp" />
 
     <Button
@@ -46,8 +48,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         tools:layout_editor_absoluteY="337dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
         android:weightSum="1"
         app:layout_constraintHorizontal_bias="0.0">
 
@@ -95,11 +97,11 @@
         android:id="@+id/imageView4"
         android:layout_width="352dp"
         android:layout_height="293dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="29dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:srcCompat="@drawable/pic3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="149dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        android:layout_marginBottom="54dp" />
 
 
 </android.support.constraint.ConstraintLayout>
