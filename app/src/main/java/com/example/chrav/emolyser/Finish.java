@@ -19,6 +19,9 @@ public class Finish extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
+
+                Intent it1=new Intent(Finish.this,MainActivity.class);
+                startActivity(it1);
                 Intent homeIntent = new Intent(Intent.ACTION_MAIN);
                 homeIntent.addCategory( Intent.CATEGORY_HOME );
                 homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
