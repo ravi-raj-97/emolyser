@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class QuesFourteen extends AppCompatActivity {
-
+    public static int val;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

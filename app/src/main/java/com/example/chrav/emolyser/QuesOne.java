@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class QuesOne extends AppCompatActivity {
-
+    public static int val;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +27,7 @@ public class QuesOne extends AppCompatActivity {
                 bt2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+
                         Intent it2 = new Intent(QuesOne.this, QuesTwo.class);
                         startActivity(it2);
                     }
