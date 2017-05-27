@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="359dp"
-        android:layout_height="142dp"
+        android:layout_width="291dp"
+        android:layout_height="92dp"
         android:layout_marginLeft="16dp"
         android:text="Question Eight \nIn your opinion, which side does the beam appear to be tilted?"
         android:textStyle="bold"
@@ -81,8 +81,8 @@
 
         <RadioButton
             android:id="@+id/radioButton30"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="134dp"
+            android:layout_height="68dp"
             android:layout_marginLeft="10dp"
             android:text="Both are equally tilted"
             android:textColor="#000000"
@@ -97,11 +97,11 @@
         android:id="@+id/imageView4"
         android:layout_width="352dp"
         android:layout_height="293dp"
-        android:layout_marginLeft="29dp"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:srcCompat="@drawable/pic3"
         app:layout_constraintBottom_toTopOf="@+id/button16"
-        android:layout_marginBottom="54dp" />
+        android:layout_marginBottom="40dp" />
 
 
 </android.support.constraint.ConstraintLayout>

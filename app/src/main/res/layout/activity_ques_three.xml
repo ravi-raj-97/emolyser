@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="377dp"
-        android:layout_height="200dp"
+        android:layout_width="349dp"
+        android:layout_height="199dp"
         android:layout_marginLeft="16dp"
-        android:text="Question Three \nYou often think of the root cause of phenomena and things. "
+        android:text="Question Three \nYou often think of the root cause of \nphenomena and \nthings. "
         android:textStyle="bold"
         android:textColor="#000000"
         android:textSize="30dp"

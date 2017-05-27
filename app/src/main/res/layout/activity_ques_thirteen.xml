@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="347dp"
-        android:layout_height="94dp"
-        android:layout_marginLeft="19dp"
+        android:layout_width="322dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="16dp"
         android:text="You look around and find a staircase. You decide to climb the stairs. What does the staircase look like ?"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -56,8 +56,8 @@
 
         <RadioButton
             android:id="@+id/radioButton46"
-            android:layout_width="352dp"
-            android:layout_height="52dp"
+            android:layout_width="324dp"
+            android:layout_height="67dp"
             android:layout_marginLeft="20dp"
             android:text="It looks sharp and massive like not leading anywhere"
             android:textColor="#000000"
@@ -69,8 +69,8 @@
 
         <RadioButton
             android:id="@+id/radioButton47"
-            android:layout_width="352dp"
-            android:layout_height="53dp"
+            android:layout_width="323dp"
+            android:layout_height="71dp"
             android:layout_marginLeft="20dp"
             android:text="It is an impressive spiral, grand staircase"
             android:textColor="#000000"

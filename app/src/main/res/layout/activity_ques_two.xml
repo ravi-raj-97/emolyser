@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="377dp"
-        android:layout_height="199dp"
+        android:layout_width="328dp"
+        android:layout_height="191dp"
         android:layout_marginLeft="16dp"
         android:text="Question Two \nYou trust what people say immediately. "
         android:textStyle="bold"

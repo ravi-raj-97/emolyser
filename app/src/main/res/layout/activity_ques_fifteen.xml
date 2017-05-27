@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="347dp"
-        android:layout_height="94dp"
-        android:layout_marginLeft="19dp"
+        android:layout_width="307dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="16dp"
         android:text="You look out the window. What do you see?"
         android:textStyle="bold"
         android:textColor="#000000"
