@@ -72,7 +72,7 @@
             android:layout_width="323dp"
             android:layout_height="71dp"
             android:layout_marginLeft="20dp"
-            android:text="It is an impressive spiral, grand staircase"
+            android:text="It is an impressive spiral, grand staircase, leading to a free hallway"
             android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintHorizontal_bias="0.098"

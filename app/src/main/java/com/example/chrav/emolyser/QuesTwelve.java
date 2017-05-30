@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class QuesTwelve extends AppCompatActivity {
@@ -17,6 +18,32 @@ public class QuesTwelve extends AppCompatActivity {
         TextView tv1 = (TextView)findViewById(R.id.textView14);
         Button bt1 = (Button)findViewById(R.id.button25);
         Button bt2 = (Button)findViewById(R.id.button26);
+
+        RadioButton rb1 = (RadioButton)findViewById(R.id.radioButton42);
+        RadioButton rb2 = (RadioButton)findViewById(R.id.radioButton43);
+        RadioButton rb3 = (RadioButton)findViewById(R.id.radioButton44);
+        RadioButton rb4 = (RadioButton)findViewById(R.id.radioButton45);
+
+        rb1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                val=7;
+            }});
+        rb2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                val=2;
+            }});
+        rb3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                val=8;
+            }});
+        rb4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                val=1;
+            }});
         bt1.setOnClickListener(new View.OnClickListener() {
                                    @Override
                                    public void onClick(View v) {
