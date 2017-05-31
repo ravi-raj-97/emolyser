@@ -99,56 +99,41 @@ public class Finish extends AppCompatActivity {
 
         float r[]=new float[6];
         r[0]=-1;
-        r[1]=t1/(c1*10);
-        r[2]=t2/(c2*10);
-        r[3]=t3/(c3*10);
-        r[4]=t4/(c4*10);
-        r[5]=t5/(c5*10);
+        if(c1!=0)
+            r[1]=t1/(c1*10);
+        if(c2!=0)
+            r[2]=t2/(c2*10);
+        if(c3!=0)
+            r[3]=t3/(c3*10);
+        if(c4!=0)
+            r[4]=t4/(c4*10);
+        if(c5!=0)
+            r[5]=t5/(c5*10);
 
-        if(r[1]<=0.3)
-            tv1.setText("Highly Emotional");
-        else if(r[1]>0.3&&r[1]<=0.5)
-            tv1.setText("Fairly Emotional");
-        else if(r[1]>0.5&&r[1]<=0.7)
-            tv1.setText("Fairly Practical");
+        if(r[1]<=0.5)
+            tv1.setText("Emotional");
         else
-            tv1.setText("Highly Practical");
+            tv1.setText("Practical");
 
-        if(r[2]<=0.3)
-            tv2.setText("Highly Extrovert");
-        else if(r[2]>0.3&&r[2]<=0.5)
-            tv2.setText("Fairly Extrovert");
-        else if(r[2]>0.5&&r[2]<=0.7)
-            tv2.setText("Fairly Introvert");
+        if(r[2]<=0.5)
+            tv2.setText("Extrovert");
         else
-            tv2.setText("Highly Introvert");
+            tv2.setText("Introvert");
 
-        if(r[3]<=0.3)
-            tv3.setText("Highly Submissive");
-        else if(r[3]>0.3&&r[3]<=0.5)
-            tv3.setText("Fairly Submissive");
-        else if(r[3]>0.5&&r[3]<=0.7)
-            tv3.setText("Fairly Dominant");
+        if(r[3]<=0.5)
+            tv3.setText("Submissive");
         else
-            tv3.setText("Highly Dominant");
+            tv3.setText("Dominant");
 
-        if(r[4]<=0.3)
-            tv4.setText("Highly Intuitive");
-        else if(r[4]>0.3&&r[4]<=0.5)
-            tv4.setText("Fairly Intuitive");
-        else if(r[4]>0.5&&r[4]<=0.7)
-            tv4.setText("Fairly Reasoning");
+        if(r[4]<=0.5)
+            tv4.setText("Intuitive");
         else
-            tv4.setText("Highly Reasoning");
+            tv4.setText("Reasoning");
 
-        if(r[5]<=0.3)
-            tv5.setText("Highly Fickle");
-        else if(r[5]>0.3&&r[5]<=0.5)
-            tv5.setText("Fairly Fickle");
-        else if(r[5]>0.5&&r[5]<=0.7)
-            tv5.setText("Fairly Stable");
+        if(r[5]<=0.5)
+            tv5.setText("Fickle");
         else
-            tv5.setText("Highly Stable");
+            tv5.setText("Stable");
 
         bt1.setOnClickListener(new View.OnClickListener()
         {
